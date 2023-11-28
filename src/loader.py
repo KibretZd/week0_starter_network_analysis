@@ -11,7 +11,6 @@ from time import sleep
 from src.utils import get_messages_from_channel
 
 
-
 # Create wrapper classes for using slack_sdk in place of slacker
 class SlackDataLoader:
     '''
@@ -63,7 +62,7 @@ class SlackDataLoader:
         
         '''
         # the ff is my code
-        # return get_messages_from_channel(channel_name.mes)
+        # return get_messages_from_channel(channel_name)
 
     # 
     def get_user_map(self):
