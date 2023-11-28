@@ -8,6 +8,8 @@ from datetime import datetime
 from pick import pick
 from time import sleep
 
+from src.utils import get_messages_from_channel
+
 
 
 # Create wrapper classes for using slack_sdk in place of slacker
@@ -60,6 +62,8 @@ class SlackDataLoader:
         write a function to get all the messages from a channel
         
         '''
+        # the ff is my code
+        # return get_messages_from_channel(channel_name.mes)
 
     # 
     def get_user_map(self):
